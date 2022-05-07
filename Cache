@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-05-07T14:05:21.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" version="17.4.6" etag="dJ-_eA5QhdU8NmUEaQVA" type="gitlab"><diagram id="9rJSJ9bIIUJPhCsEbpRu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-07T14:12:53.220Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="PquNefwOnp-B1NEQFpDo" version="17.4.6" type="gitlab">
+  <diagram id="9rJSJ9bIIUJPhCsEbpRu" name="Page-1">
+    <mxGraphModel dx="621" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qlrmwjawGubW4wcSkjvW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlrmwjawGubW4wcSkjvW-2" target="qlrmwjawGubW4wcSkjvW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-2" value="存在内存缓存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlrmwjawGubW4wcSkjvW-4" target="qlrmwjawGubW4wcSkjvW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-4" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-6" value="根据URL 生成的 MD5 作为Key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="130" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlrmwjawGubW4wcSkjvW-8" target="qlrmwjawGubW4wcSkjvW-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qlrmwjawGubW4wcSkjvW-8" target="qlrmwjawGubW4wcSkjvW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-8" value="存在磁盘缓存" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="330" width="110" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-10" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="qlrmwjawGubW4wcSkjvW-11" target="qlrmwjawGubW4wcSkjvW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-11" value="异步网络请求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-13" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="335" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-14" value="同步写入内存和磁盘&lt;br&gt;Synchronize" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qlrmwjawGubW4wcSkjvW-17" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
